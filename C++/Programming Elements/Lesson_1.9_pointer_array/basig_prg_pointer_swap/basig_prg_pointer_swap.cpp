@@ -6,9 +6,7 @@ int swap(int* a, int* b)
 
     *b = *a;
     *a = c;
-    
-    std::cout << "a = " << c << ", b = " << *b << std::endl;
-
+   
     return 0;
 }
 
@@ -23,6 +21,8 @@ int main()
     int* ptrB = &b;
 
     swap(ptrA, ptrB);
+
+    std::cout << "a = " << a << ", b = " << b << std::endl;
 
     return 0;
 }
