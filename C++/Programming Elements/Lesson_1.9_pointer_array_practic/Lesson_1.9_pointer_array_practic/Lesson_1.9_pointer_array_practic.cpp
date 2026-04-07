@@ -14,7 +14,7 @@ int main()
 	cout << &ptrVariable << endl;
 	cout << *ptrVariable << endl;
 	
-	*ptrVariable = 3000;
+	*ptrVariable = 300;
 
 	cout << variable << endl;
 
