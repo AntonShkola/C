@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="Lesson_1.10_pointer_dynamic_memory.vcxproj" />
+  <Project Path="Lesson_1.10_pointer_dynamic_memory.vcxproj" Id="89b4a3b8-833c-489b-b875-1769423aa924" />
 </Solution>
