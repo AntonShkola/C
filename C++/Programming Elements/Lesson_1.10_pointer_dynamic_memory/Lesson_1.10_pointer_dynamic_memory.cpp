@@ -1,4 +1,4 @@
-﻿#include <iostream>
+﻿/*#include <iostream>
 
 using namespace std;
 
@@ -16,6 +16,41 @@ int main()
 		cout << integers[0] << endl;
 		free(integers);
 	}
+
+	return 0;
+}*/
+
+/*#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	int* dynamicVariable{ new int{} };
+	cout << *dynamicVariable << endl;
+	delete dynamicVariable;
+
+	return 0;
+}*/
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	cout << "Enter array size: ";
+	int arraySize{ 3 };
+	cin >> arraySize;
+
+	float* floatArray{ new float[arraySize] {1.1, 2.2, 3.3} };
+	for (int element{}; element < arraySize; ++element)
+	{
+		cout << "Element [" << element << "]: " << floatArray[element] << endl;
+	}
+	cout << *floatArray << endl;
+	cout << floatArray;
+	delete[] floatArray;
 
 	return 0;
 }
