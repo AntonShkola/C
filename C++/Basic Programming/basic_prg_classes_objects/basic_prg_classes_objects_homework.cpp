@@ -5,6 +5,6 @@ using namespace std;
 
 void homeWorkFunction()
 {
-	cout << "homework ok";
+	//cout << "homework ok";
 }
 
