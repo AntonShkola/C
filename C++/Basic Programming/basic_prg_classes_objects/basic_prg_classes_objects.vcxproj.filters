@@ -18,10 +18,13 @@
     <ClCompile Include="basic_prg_classes_objects.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="basic_prg_classes_objects_homework.cpp">
+    <ClCompile Include="basic_prg_classes_objects_calculator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="basic_prg_classes_objects_lesson.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="basic_prg_classes_objects_counter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

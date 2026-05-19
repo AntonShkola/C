@@ -128,7 +128,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="basic_prg_classes_objects.cpp" />
-    <ClCompile Include="basic_prg_classes_objects_homework.cpp" />
+    <ClCompile Include="basic_prg_classes_objects_calculator.cpp" />
+    <ClCompile Include="basic_prg_classes_objects_counter.cpp" />
     <ClCompile Include="basic_prg_classes_objects_lesson.cpp" />
   </ItemGroup>
   <ItemGroup>

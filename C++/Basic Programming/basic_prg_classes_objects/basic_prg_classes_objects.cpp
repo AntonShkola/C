@@ -3,7 +3,8 @@
 
 int main()
 {
-	lessonFunc();
-	homeWorkFunction();
+	//lessonFunc();
+	//calculate();
+	countStart();
 }
 
